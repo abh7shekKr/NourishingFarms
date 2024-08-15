@@ -19,7 +19,8 @@ class MainActivity : AppCompatActivity() {
             .postDelayed(
                 {
                     startActivity(Intent(this, HomeActivity::class.java))
-                }, 2000
+                    finish()
+                }, 1400
             )
     }
 }
