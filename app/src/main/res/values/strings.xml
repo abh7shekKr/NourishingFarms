@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">nourishingFarms</string>
+    <string name="logo_splash_screen">Logo - Splash Screen</string>
+    <string name="tag_line">A Farmer\'s Companion</string>
 </resources>
