@@ -268,8 +268,8 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
         android:fontFamily="@font/poppinsbold"
         android:text="@string/popular_recipes"
@@ -281,11 +281,12 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_popular"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginTop="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        tools:listitem="@layout/item_recipe" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
